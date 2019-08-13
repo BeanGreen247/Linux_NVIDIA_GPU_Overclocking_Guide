@@ -65,9 +65,9 @@ Next make it executable
 sudo chmod +x /usr/bin/overclock.sh
 ```
 And add it to startup for XFCE its in Application>Settings>Settings Manager>Session and Startup>Application Autostart
-Then click on Add. Give it a name, desciption and in command type the location /usr/bin/overclock.sh.
+Then click on Add. Give it a name, desciption and in command type 
 ```
-/usr/bin/overclock.sh
+bash /usr/bin/overclock.sh
 ```
 That will automatically overclock your GPU at startup.
 
