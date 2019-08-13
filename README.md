@@ -56,7 +56,7 @@ nvidia-settings -a '[gpu:0]/GPUGraphicsMemoryOffset[1]=#1'
 
 nvidia-settings -a '[gpu:0]/GPUMemoryTransferRateOffset[1]=#1'
 
-nvidia-settings -a '[gpu:0]/GPUFanControlState=#'
+nvidia-settings -a '[gpu:0]/GPUFanControlState=1'
 
 nvidia-settings -a '[fan:0]/GPUTargetFanSpeed=#'
 ```
